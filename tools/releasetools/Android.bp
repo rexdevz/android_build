@@ -243,11 +243,13 @@ python_defaults {
     required: [
         "aapt2",
         "apexer",
+        "avbtool",
         "boot_signer",
         "brotli",
         "bsdiff",
         "deapexer",
         "debugfs-host",
+        "debugfs",
         "imgdiff",
         "lz4",
         "minigzip",
