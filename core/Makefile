@@ -5033,6 +5033,7 @@ $(BUILT_TARGET_FILES_PACKAGE_SIGNED): \
 		 $(AVBTOOL) \
 		 $(DEAPEXER) \
 		 $(DEBUGFS) \
+		 $(RESIZE2FS) \
 		 $(ZIPALIGN_HOST) \
 		 $(SIGN_TARGET_FILES_APKS)
 	@echo "Package signed target files: $@"
